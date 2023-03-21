@@ -26,7 +26,7 @@ public class Tema6_ejercicio9 {
 		Scanner s=new Scanner(System.in);
 		 for (int i=0;i<matriz.length;i++)
 		 {
-			 for (int j=0;j<matriz[i].length;j++) {
+			 for (int j=1;j<matriz[i].length;j++) {
 				 matriz[i][j]=r.nextInt(10);
 				 matriz2[i][j]=s.nextInt();
 				suma[i][j]=matriz[i][j]+matriz2[i][j];
